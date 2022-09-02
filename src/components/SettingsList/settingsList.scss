@@ -1,0 +1,69 @@
+.settingsListContainer {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.headText {
+  text-align: center;
+  font-family: 'Rosario';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  text-transform: capitalize;
+  color: #0F003D;
+}
+
+.settingItemsContainer {
+  padding: 0 140px 0 140px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.settingsItem {
+  margin-top: 50px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.settingsListImgMain :hover {
+  cursor: pointer;
+}
+
+.settingsListHeadText {
+  margin-top: 30px;
+  font-family: 'Rosario';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #180A42;
+}
+
+.settingsListSubText {
+  margin-top: 15px;
+  width: 143px;
+  font-family: 'Rosario';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170.2%;
+  text-align: center;
+  color: #180A42;
+}
+
+.settingsListImgLearn {
+  margin-top: 15px;
+}
+
+.settingsListImgLearn :hover {
+  cursor: pointer;
+}

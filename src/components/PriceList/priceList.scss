@@ -1,0 +1,113 @@
+.priceListContainer {
+  max-width: 1440px;
+  margin-top: 140px;
+  margin-bottom: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.headTextContainer {
+  text-align: center;
+}
+
+.headTextPriceList {
+  font-family: 'Rosario';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  text-transform: capitalize;
+  color: #0F003D;
+}
+
+.headSubTextPriceList {
+  margin-top: 15px;
+  font-family: 'Rosario';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 170.2%;
+  color: #180A42;
+}
+
+.tarifsContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding: 0 140px 0 140px;
+}
+
+.cardItemContainer {
+  margin-bottom: 60px;
+  border-radius: 20px;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cardItemContainer:hover {
+  cursor: pointer;
+}
+
+.tarifCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.tarifTextHead {
+  position: absolute;
+  font-family: 'Rosario';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.textItemsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconTextContainer {
+  display: flex;
+  margin-top: 36px;
+}
+
+.textPriceList {
+  margin-left: 13px;
+  font-family: 'Rosario';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #180A42;
+}
+
+.hrPriceList {
+  margin-top: 63px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemPriceText {
+  margin-top: 50px;
+  margin-bottom: 59px;
+  font-family: 'Roboto Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 63px;
+  text-transform: capitalize;
+  color: #180A42;
+}
